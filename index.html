@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hassaan Automation Agency</title>
+
+    <!-- LINK TO CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <h1>
+                <svg width="40px" height="40px" viewBox="0 0 1024 1024">
+                    <path fill="#0a7b6b" d="M256 832a128 128 0 100-256 128 128 0 000 256zm0 64a192 192 0 110-384 192 192 0 010 384z" />
+                    <path fill="#0a7b6b" d="M288 672h320q32 0 32 32t-32 32H288q-32 0-32-32t32-32z" />
+                    <path fill="#0a7b6b" d="M768 832a128 128 0 100-256 128 128 0 000 256zm0 64a192 192 0 110-384 192 192 0 010 384z" />
+                    <path fill="#0a7b6b" d="M480 192a32 32 0 010-64h160a32 32 0 0131.04 24.256l96 384a32 32 0 01-62.08 15.488L615.04 192H480z" />
+                    <path fill="#0a7b6b" d="M96 384a32 32 0 010-64h128a32 32 0 0130.336 21.888l64 192a32 32 0 11-60.672 20.224L200.96 384H96z" />
+                    <path fill="#0a7b6b" d="M373.376 599.808l-42.752-47.616 320-288 42.752 47.616z" />
+                </svg>
+                Hassaan Automation Agency
+            </h1>
+
+            <nav>
+                <ul>
+                    <li><a href="#features">Solutions</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact-form">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- FEATURES -->
+    <main>
+
+        <section id="features">
+            <div class="container">
+                <h2>Our Automation Services</h2>
+
+                <div class="features-grid">
+
+                    <article class="feature-card">
+                        <h3>Business Process Automation</h3>
+                        <p>We automate repetitive business tasks with smart workflow systems, saving time and reducing errors.</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <h3>AI Chatbot Solutions</h3>
+                        <p>Custom chatbots for websites and apps that handle customer support automatically, 24/7.</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <h3>Custom Automation Tools</h3>
+                        <p>We build tools for scraping, reporting, scheduling, and integrating your business systems.</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ABOUT -->
+        <section id="about">
+            <div class="container">
+                <h2>About Hassaan Automation Agency</h2>
+
+                <p>
+                    We specialize in automation that helps businesses grow faster by reducing manual work.
+                    Whether you're a small business or a growing brand, we create custom AI tools and workflow systems
+                    that make your operations smooth and efficient.
+                </p>
+
+                <img src="assets/automation.jpg" alt="Automation Image">
+            </div>
+        </section>
+
+
+        <!-- CONTACT FORM -->
+        <section id="contact-form">
+            <div class="container">
+                <h2>Get in Touch</h2>
+
+                <form action="#" method="GET">
+
+                    <div class="form-group">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" required>
+                    </div>
+
+                    <fieldset class="form-group">
+                        <legend>Which service are you interested in?</legend>
+
+                        <input type="radio" id="automation" name="service" value="automation">
+                        <label for="automation">Business Automation</label><br>
+
+                        <input type="radio" id="chatbot" name="service" value="chatbot">
+                        <label for="chatbot">AI Chatbot</label><br>
+
+                        <input type="radio" id="tools" name="service" value="tools">
+                        <label for="tools">Custom Tool Development</label><br>
+                    </fieldset>
+
+                    <fieldset class="form-group">
+                        <legend>Additional Features</legend>
+
+                        <input type="checkbox" id="dashboard" value="dashboard">
+                        <label for="dashboard">Dashboard</label><br>
+
+                        <input type="checkbox" id="api" value="api">
+                        <label for="api">API Integration</label><br>
+
+                        <input type="checkbox" id="full-automation" value="full">
+                        <label for="full-automation">Full Automation</label><br>
+                    </fieldset>
+
+                    <div class="form-group">
+                        <label for="source">How did you find us?</label>
+                        <select id="source">
+                            <option>Choose one</option>
+                            <option>Social Media</option>
+                            <option>Friend</option>
+                            <option>Search Engine</option>
+                            <option>Ads</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" rows="4"></textarea>
+                    </div>
+
+                    <button class="submit-btn">Submit</button>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Hassaan Automation Agency. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
