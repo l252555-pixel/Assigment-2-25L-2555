@@ -2,8 +2,8 @@
 
 ## Student Information
 **Name:** Muhammad Hassaan Sajid 
-**Roll Number:** <25L-2555>  
-**Instructor:** <Ansa Liaqat>
+**Roll Number:** 25L-2555  
+**Instructor:** Ansa Liaqat
 
 ---
 
