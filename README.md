@@ -1,11 +1,9 @@
 # Hassaan Automation Agency – HTML & CSS Assignment
 
 ## Student Information
-**Name:** Hassaan  
-**Roll Number:** <Your Roll Number>  
-**Semester:** <Your Semester>  
-**Course:** Web Engineering  
-**Instructor:** <Instructor Name>
+**Name:** Muhammad Hassaan Sajid 
+**Roll Number:** <25L-2555>  
+**Instructor:** <Ansa Liaqat>
 
 ---
 
@@ -57,9 +55,8 @@ Includes:
 ## 🖼 Screenshots
 Screenshots included in `/screenshots` folder:
 - home.png  
-- features.png  
 - about.png  
-- contact-form.png  
+- contact.png  
 
 ---
 
