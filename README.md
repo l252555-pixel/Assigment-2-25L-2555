@@ -53,7 +53,7 @@ Includes:
 ---
 
 ## 🖼 Screenshots
-Screenshots included in `/screenshots` folder:
+Screenshots in files:
 - home.png  
 - about.png  
 - contact.png  
